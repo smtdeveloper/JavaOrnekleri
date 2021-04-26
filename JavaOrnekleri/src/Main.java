@@ -87,7 +87,16 @@ public class Main {
 		break; }
 		}
 		
+		System.out.println("----------------- Faktöriyel Hesaplama Programý Java ------------------");
 		
+		int sayi, faktoriyel=1; 
+		Scanner oku=new Scanner(System.in); 
+		System.out.print("Faktöriyeli alýnacak sayýyý girin : "); 
+		sayi=oku.nextInt(); 
+		for(int i=2; i<=sayi; i++){ 
+		faktoriyel=i*faktoriyel; 
+		} 
+		System.out.println(sayi+" sayýsýnýn faktöriyeli = " + faktoriyel); 
 		
 	}
 }
